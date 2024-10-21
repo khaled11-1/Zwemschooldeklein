@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Zwemschool De Klein</title>
+    <link rel="stylesheet" href="Zwemschool_de_klein.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://static.vecteezy.com/ti/gratis-vector/p3/21767147-zwemmen-sport-logo-ilustration-ontwerp-sjabloon-vector.jpg" alt="Zwemschool logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Zwemschooldeklein_home.html">Home</a></li>
+                <li><a href="locatie_pagina.html">Locaties</a></li>
+                <li><a href="Over-ons.html">Over ons</a></li>
+                <li><a href="Contact_pagina.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form">
+            <h2>Neem contact met ons op</h2>
+            <form action="verwerk_contact.php" method="post">
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam" placeholder="Uw naam" required>
+
+                <label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="email" placeholder="Uw e-mailadres" required>
+
+                <label for="bericht">Uw bericht:</label>
+                <textarea id="bericht" name="bericht" rows="6" placeholder="Uw bericht" required></textarea>
+
+                <input type="submit" value="Verstuur">
+            </form>
+
+            <div class="contact-links">
+                <p>Bekijk onze locaties:</p>
+                <a href="locatie_pagina.html">Locaties</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Zwemschool De Klein</p>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+        <p>Contact: info@zwemschooldeklein.nl | Tel: 020 - 776 00 66</p>
+    </footer>
+</body>
+</html>
